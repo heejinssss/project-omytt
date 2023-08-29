@@ -6,7 +6,7 @@ import createPersistedState from 'vuex-persistedstate'
 import router from '../router'
 // import { compileToFunctions } from 'vue-template-compiler'
 
-const API_URL = 'http://3.34.134.138:8000'
+const API_URL = 'http://127.0.0.1:8000'
 
 
 Vue.use(Vuex)
