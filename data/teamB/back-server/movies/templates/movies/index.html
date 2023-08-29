@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>INDEX</h1>
+
+
+  {% for ott in otts  %}
+    <button type="button" class="btn btn-warning mt-2">
+    <a href="{% url 'movies:ott_filter' ott.pk %}" class="text-decoration-none text-dark">{{ ott.name }}</a>
+    </button>
+  {% endfor %}
+
+
+  {% for movie in movies %}
+    <p>{{ movie.title }}</p>
+    <img src="https://image.tmdb.org/t/p/w300{{movie.poster_path}}">
+    <p>{{ movie.overview }}</p>
+    <p>{{ movie.release_date }}</p>
+    <hr />
+  {% endfor %} 
+{% endblock content %}

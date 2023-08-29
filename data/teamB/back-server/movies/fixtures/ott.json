@@ -1,0 +1,56 @@
+[
+  {
+    "model": "movies.ott",
+    "pk": 1,
+    "fields": {
+      "initial": "nfx",
+      "name": "Netflix",
+      "signup": "https://www.netflix.com/signup/planform"
+    }
+  },
+  {
+    "model": "movies.ott",
+    "pk": 2,
+    "fields": {
+      "initial": "wac",
+      "name": "Watcha",
+      "signup": "https://watcha.com/sign_up"
+    }
+  },
+  {
+    "model": "movies.ott",
+    "pk": 3,
+    "fields": {
+      "initial": "wav",
+      "name": "Wavve",
+      "signup": "https://member.wavve.com/signup"
+    }
+  },
+  {
+    "model": "movies.ott",
+    "pk": 4,
+    "fields": {
+      "initial": "ply",
+      "name": "GooglePlay",
+      "signup": "https://play.google.com/store/movies"
+    }
+  },
+  {
+    "model": "movies.ott",
+    "pk": 5,
+    "fields": {
+      "initial": "apt",
+      "name": "AppleTv",
+      "signup": "https://tv.apple.com/kr/channel/tvs.sbd.4000"
+    }
+  },
+  {
+    "model": "movies.ott",
+    "pk": 6,
+    "fields": {
+      "initial": "dnp",
+      "name": "DisneyPlus",
+      "signup": "https://www.disneyplus.com/ko-kr/sign-up?type=standard"
+    }
+  }
+]
