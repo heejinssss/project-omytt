@@ -111,7 +111,7 @@ back-server
 
 ### 2) Vue Component
 
-![KakaoTalk_Photo_2023-05-25-21-34-23.png](src/KakaoTalk_Photo_2023-05-25-21-34-23.png)
+![Vue Component](https://github.com/heejinssss/project-omytt/assets/122508547/c1142e24-a778-49b6-8a48-072410715f15)
 
 ```
 front-server
